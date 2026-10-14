@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Coda:wght@400;800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+    /* UI-Colors */
+    --primary-color: #ff0000;
+
+    /* UI-Text */
+    --body-font-family: 'Coda', System-ui;
+    --text-color: #f5f5f5;
+
+    /* Navbar Styles */
+    --navbar-bg: #272626;
+    --navbar-heigth: 60px;
+
+    /* Body */
+
+    /* Results */
+    --results-padding: 50px;
+
+    /* Pokemon Card Styles */
+    --pokemon-card-border: #cccccc;
+    --pokemon-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --pokemon-card-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    --pokemon-card-hover-transform: scale(1.02);
+    --pokemon-card-hover-transition: transform 0.1s ease, box-shadow 0.3s ease;
+
+    --pokemon-card-title-font-size: 1rem;
+    --pokemon-card-title-font-family: "Coda", system-ui;
+    --pokemon-card-title-font-weight: 400;
+    --pokemon-card-title-font-style: normal;
+
+    --pokemon-card-text-font-family: "Coda", system-ui;
+    --pokemon-card-text-font-weight: 400;
+    --pokemon-card-text-font-style: normal;
+
+    --pokemon-card-title-color: #f5f5f5;
+    --pokemon-card-title-margin-bottom: 0.5rem;
+    --pokemon-card-title-text-transform: capitalize;
+    --pokemon-card-title-text-align: center;
+
+    --pokemon-card-height: 250px;
+    --pokemon-card-width: 200px;
+
+    --pokemon-card-border-radius: 20px;
+
+    /* Pokemon background grandietns for types*/
+    --pokemon-card-bg-normal: linear-gradient(159deg,rgba(211, 211, 211, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-fire: linear-gradient(159deg,rgba(255, 69, 0, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-water: linear-gradient(159deg,rgba(99, 144, 240, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-electric: linear-gradient(159deg,rgba(247, 208, 44, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-grass: linear-gradient(159deg,rgba(122, 199, 76, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-ice: linear-gradient(159deg,rgba(150, 217, 214, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-fighting: linear-gradient(159deg,rgba(194, 46, 40, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-poison: linear-gradient(159deg,rgba(163, 62, 161, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-ground: linear-gradient(159deg,rgba(226, 191, 101, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-flying: linear-gradient(159deg,rgba(169, 143, 243, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-psychic: linear-gradient(159deg,rgba(249, 85, 135, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-bug: linear-gradient(159deg,rgba(166, 185, 26, 1)  0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-rock: linear-gradient(159deg,rgba(182, 161, 54, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-ghost: linear-gradient(159deg,rgba(115, 87, 151, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-dragon: linear-gradient(159deg,rgba(111, 53, 252, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-dark: linear-gradient(159deg,rgba(112, 87, 70, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1)  100%);
+    --pokemon-card-bg-steel: linear-gradient(159deg,rgba(183, 183, 206, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+    --pokemon-card-bg-fairy: linear-gradient(159deg,rgba(214, 133, 173, 1) 0%, rgba(31, 27, 27, 1) 59%, rgba(0, 0, 0, 1) 100%);
+
+    /* Pokemon details */
+    --pokemon-details-padding: 1rem;
+    --pokemon-details-text-color: #272626;
+    --pokemon-details-title-text-transform: capitalize;
+    --pokemon-details-title-font-family: "Abril", system-ui;
+    --pokemon-details-title-font-weight: 400;
+    --pokemon-details-title-font-style: normal;
+    --pokemon-details-title-font-size: 1.5rem;
+}
