@@ -1,6 +1,6 @@
 # Pokédex
 
-Uma Pokédex web que consulta dados em tempo real na [PokeAPI](https://pokeapi.co/) e apresenta informações de Pokémon em uma interface visual, interativa e em português.
+Uma Pokédex web que consulta dados em tempo real na [PokeAPI](https://pokeapi.co/) e apresenta informações de Pokémon em uma interface visual, interativa e em português. Minha ideia nesse projeto foi apresentar meus conhecimentos em desenvolvimento front-end e trazer a nostalgia de uma Pokédex que lembrasse o anime do universo Pokémon.
 
 > **Projeto pessoal e permanentemente em desenvolvimento.**  
 > Novas melhorias, ajustes de experiência e experimentos técnicos podem ser incorporados continuamente.
@@ -80,7 +80,7 @@ O projeto não depende de etapa de build nem de gerenciador de pacotes. Como a a
 
 ### Opção 2: servidor HTTP local
 
-Com Python instalado, a partir da pasta `estudos`, execute:
+Com Python instalado, a partir da pasta `pokedex`, execute:
 
 ```bash
 python3 -m http.server 8000
@@ -114,7 +114,6 @@ Como o projeto está em desenvolvimento contínuo, algumas evoluções naturais 
 - ampliar a paginação e permitir navegar por diferentes conjuntos da Pokédex;
 - centralizar os mapas de tradução para eliminar duplicação entre módulos;
 - adicionar testes automatizados para busca, cache e renderização;
-- tornar o link do GitHub configurável e apontá-lo para o repositório do projeto;
 - melhorar os estados de carregamento e a acessibilidade dos controles interativos.
 
 ## Status
